@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Somanath Patil Resume</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @charset "UTF-8";
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+/* Colors */
+/* Sizes */
+/* Media Query Breakpoint */
+/* Header Arrow Effect */
+/* Typography */
+h1, h2, h3 {
+  font-family: Bitter, serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 190%;
+}
+
+h2 {
+  color: #707070;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: -1.1em;
+}
+
+li {
+  margin-bottom: 10px;
+  position: relative;
+}
+li:before {
+  
+  position: absolute;
+  left: -20px;
+}
+
+a {
+  color: #db4747;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:hover, a:focus {
+  color: #c82727;
+}
+
+.clearfix, header, .info {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+/* Box Model */
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #CAE5E7;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.resume {
+  position: relative;
+  background: white;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 58em) {
+  .resume {
+    width: 96%;
+  }
+}
+
+header {
+  position: relative;
+  background: #3b8fb8;
+  width: 100%;
+  overflow: hidden;
+  height: 90px;
+  text-shadow: 1px 2px 3px #304a63;
+}
+header h1 {
+  position: relative;
+  font-family: 'Bitter', serif;
+  font-size: 250%;
+  background: #28627d;
+  color: white;
+  margin: 0;
+  height: 90px;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-right: 30px;
+  float: left;
+  z-index: 2;
+}
+@media (max-width: 75em) {
+  header h1 {
+    width: 100%;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 36em) {
+  header h1 span {
+    display: none;
+  }
+}
+header h1:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  border-left: 20px solid #28627d;
+  right: -20px;
+  top: 0;
+}
+header div {
+  position: relative;
+  color: white;
+  float: left;
+  padding-top: 24px;
+  padding-left: 60px;
+  padding-right: 48px;
+  height: 90px;
+}
+@media (max-width: 75em) {
+  header div {
+    width: 50%;
+  }
+}
+@media (max-width: 36em) {
+  header div {
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+header div:first-of-type {
+  background: #2e779c;
+  z-index: 1;
+}
+header div:first-of-type:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  border-left: 20px solid #2e779c;
+  right: -20px;
+  top: 0;
+}
+@media (max-width: 75em) {
+  header div:first-of-type {
+    padding-left: 30px;
+  }
+}
+header a {
+  color: white;
+  padding: 0 3px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+header a:hover, header a:focus {
+  color: white;
+  background: #00baa6;
+}
+
+.info {
+  width: 100%;
+}
+
+section {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+}
+section article {
+  margin-bottom: 30px;
+}
+section h2 {
+  font-size: 100%;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+section h2 span {
+  text-transform: none;
+}
+section p {
+  line-height: 1.5;
+}
+section .education p {
+  margin-top: 3px;
+}
+@media (max-width: 58em) {
+  section {
+    width: 100%;
+  }
+}
+
+.work .block {
+  margin-bottom: 30px;
+}
+
+aside {
+  float: left;
+  background: whitesmoke;
+  border-left: 1px solid #ccc;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+aside article {
+  margin-bottom: 50px;
+}
+aside h1 {
+  font-size: 150%;
+  margin-top: 29px;
+}
+aside a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dashed gainsboro;
+}
+aside a:hover, aside a:focus {
+  background: #e8e8e8;
+}
+@media (max-width: 58em) {
+  aside {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #ccc;
+  }
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div class="resume">
+
+<header>
+  <h1>Somanath  Patil</h1>
+  <div class="job-titles">
+    DevOps/Support Engineer<br/>
+    
+  </div>
+  <div class="contact-info">
+   <a href="https://www.linkedin.com/in/somanathp/">LinkedIn</a><br>
+    <a href="mailto:patilsomnath@gmail.com?subject=Saw your resume online...">patilsomnath86@gmail.com</a><br/>
+    <a href="tel:5059204181">505.920.4181</a>
+      </div>
+  
+</header>
+  
+<div class="info">
+  
+  <section role="main"> 
+
+    <article class="work">
+      <h1>Work Experience</h1>
+      <div class="block">
+        <h2>01/2016-12/2016: Texas A&M  University | Laredo, TX</h2>
+        <p>Texas A&M International University, often referred to as TAMIU, is a public, co-educational, state-supported university located in Laredo, Texas. It is a Member of the Texas A&M University System which is one of the largest systems of higher education in the nation</p>
+        <p><em>Roles:</em> Student Research Assistant, Lab Assistant</p>
+        <p><em>Responsibilities:</em> 
+        <ul>
+          <li>Earth data munging, wrapping, creating reports using Python</li>
+          <li>Installing and maintaining Linux environments</li>
+          <li>Assisting in Graduate student’s projects in Geology</li>
+          <li>Teaching Topcon, GIS, Unix and Python to Graduate Students</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>2011-2015: Amazon Development Center | Hyderabad, INDIA</h2>
+        <p><em>Role:</em> Support Engineer-II</p>
+        <p><em><strong>Responsibilities:</strong></em> 
+        <ul>
+          <li>Assist all teams for Code Changes, Migrations, and Deployments</li>
+          <li>Finding recurring issues and fixing them</li>
+          <li>Being Primary for Team and Go On-call for handling the high severity issues.</li>
+          <li>Work with associates, understand their pain points and come up with innovative ideas and work to fix their pain points</li>
+          <li>Being a point of contact for different development teams</li>
+          <li>Creating SOPs, Wiki and documents for ticket handling and proper error handling</li>
+          <li>Participating and scheduling in Stand-up Meeting and Recurring issues for fixing the On-going /Known issues</li>
+          <li>Monitor the Scheduled Unix shell and Python scripts and troubleshooting in case of failure</li>
+          <li>Creating DJS Scripts to run Critical ETL jobs on a daily basis</li>
+          <li>Creating monitors and alarms via Email and tickets for immediate attention of Critical issues</li>
+          <li>Monitoring SQL jobs and recovering them in case of failure</li>
+          <li>Automate the routine tasks by writing scripts and providing solutions with Operations management</li>
+          <li>Part of a data center team for monitoring and troubleshooting the Database servers and applications servers remotely</li>
+          <li>Plan the Knowledge Transition Phase, conduct KT effectiveness and review knowledge repository documents</li>
+          <li>Moving files between servers by working with Brazil</li>
+          <li>Creating LDAP and POSIX groups and assigning required permissions to Developers and Associates</li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>2010-2011: Amazon Development Center | Hyderabad, INDIA</h2>
+        <p><em>Role:</em> Risk Investigator,Quality auditor</p>
+        <p><em><strong>Responsibilities:</strong></em>
+         <ul>
+          <li>Investigate Amazon.com buyer orders, investigate buyer disputes, buyer claims, buyer chargebacks and make appropriate decision based on facts</li>
+          <li>Find fraudulent orders, common abusers and creating the tickets to analyst team to mark bulk fraud accounts</li>
+          <li>Report, escalate and coordinated with respective teams based on priority of issues</li>
+          <li>Monitor and mentor new employees and assisted them with investigation and other relevant tools </li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>2005-2006: National Degree Collage | AP, INDIA</h2>
+        <p><em>Role:</em> Computer Lab Assistant</p>
+        <p><em><strong>Responsibilities:</strong></em> 
+        <ul>
+          <li>Working as Assistant in Computer Lab</li>
+          <li>Teaching/maintaining Student's lab</li>
+          <li>Teaching Unix, C, MS-Office, Oracle to undergraduate students</li>
+          <li>maintaining Student's records in Oracle Database of Collage</li>
+        </ul>
+      </div>
+      </article>
+    <article>
+      <h1>Accomplishments:</h1>
+      <ul>
+        <li>Resolved system slow-down issues through network migrations, reconfigurations, integrations, and troubleshooting</li>
+        <li>Identified 20+ vulnerabilities by testing infrastructure security, using both automated tools and manual testing</li>
+        <li>Reduced 12% Support Engineering Operations time and 8% Dev Team Operations time by fixing the recurring issues</li>
+        <li>Exceeded expectations in case management, documentation, follow through</li>
+        <li>Performed complex software defect replication in a wide range of environments and documented for R&D review </li>
+        <li>Managed individual customer expectations while exceeding overall Service Level Objectives </li>
+        <li>Took initiative in progressing old unresolved support issues</li>
+        <li>Best Risk and Quality Investigator for 2011 in TRMS Amazon World Wide</li>
+        <li>Promoted to L4 Engineer in Amazon.com</li>
+        <li>Got Business Scholarship for MIS Master’s Program from Texas A&M</li>
+      </ul>
+    </article>
+    <article class="education">
+      <h1>Education</h1>
+      <div class="block">
+        <h2>MS <span>in</span> Management of Information ISystems</h2>
+        <p>Texas A&M International University | Laredo, TX<br/>2016</p>
+      </div>
+      <div class="block">
+        <h2>Masters <span>in</span> Computer Applications</h2>
+        <p>Hyderabad Institute of Technology and Management | Hyderabad, INDIA<br/>2010</p>
+      </div>
+      <div class="block">
+        <h2>Bachelors <span>in</span> Computers and Physics</h2>
+        <p>National Degree collage | Nandyal, INDIA<br/>2010</p>
+      </div>
+      
+    </article>
+  </section>
+  
+  <aside>
+    <article>
+      <h1>Technologies</h1>
+      <p>Scripting</p>
+      <p>Networking</p>
+      <p>Linux Administration</p>
+      <p>ETL</p>
+      <p>Server management</p>
+      <p>Support Engineeing</p>
+      <h4>Operating Systems</h4>
+      <p>Linux(Redhat/Ubuntu)</p>
+      <p>Windows XP/7/2000/2003</p>
+      <h4>Languages</h4>
+      <p>Python</p>
+      <p>Bash/Shell</p>
+      <p>Core Java</p>
+      <p>Javascript </p>
+      <p>MySQL</p>
+      <h4>Cloud</h4>
+      <p>AWS EC2</p>
+      <p>Google Cloud</p>
+      <h4>Databases</h4>      
+      <p>MYSQL</p>
+      <p>MSSQL</p>
+      <p>Oracle</p>
+      <h4>Version Control</h4>
+      <p>Git</p>
+      <h4>Utilities</h4>
+      <p>remedy</p>
+      
+      
+    </article>
+    <article>
+      <h1>Applications</h1>
+      <p>Trouble Shooting</p>
+      <p>System Monitoring</p>
+      <p>Fraud Investigation</p>
+      <p>Abuse Prevention</p>
+      <p>Buyers and Merchant's Risk Investigations</p>
+      <p>Data Engineering</p>
+      <p>Log Analysis</p>
+      <p>Operations Excellency</p>
+    </article>
+    <article>
+      <h1>Hobbies</h1>
+      <p>Family time</p>
+      <p>Gaming</p>
+      <p></p>
+      <p>Graphic Design with Photoshop / Fireworks</p>
+      <p>Developing Wordpress sites </p>
+    </article>
+  </aside>
+   
+  </div><!-- CV -->
+  
+</div><!-- That's a wrap -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
